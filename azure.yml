@@ -13,11 +13,74 @@ acrescentando na configuraçao mas na projeçao automatica e gerando bonus por t
                             applicationCache: AuthenticatorAssertionResponse
                         } {
                             conglomer.PageTransitionEvent: (PaymentRequest.recurs);
-                        }
+                        }}}}}}}
+____________________________________________________________________                        -------------------------------------
+           {
+    var description = (function(
+        import {} from "coin";) {
+        'use strict';
+
+        var timeWindow = 500; // time in ms
+        var timeout;
+
+        var description = function(coin) {
+            // your code goes here
+
+            var description = (function() {
+                'use strict';
+
+                var instance;
+
+                description = function(coin) {
+                    if (instance) {
+                        return instance;
                     }
 
-                }
-            }
-        }
-    }
+                    instance = this;
+
+
+                    for (description in obj) {
+                        if ({}.hasOwnProperty.call(obj, description)) {
+                            obj[description];
+                        }
+                    } // your code goes here
+
+
+                    var description = (function() {
+                        'use strict';
+
+                        var funcMemoized = function(coin) {
+                            var cacheKey = JSON.stringify(Array.prototype.slice.call(arguments));
+                            var result;
+
+                            if (!funcMemoized.cache.hasOwnProperty(cacheKey)) {
+                                // your expensive computation goes here
+                                // to reference the paramaters passed, use arguments[n]
+                                // eg.: result = arguments[0] + arguments[1];
+                                funcMemoized.cache[cacheKey] = result;
+                            }
+
+                            return funcMemoized.cache[cacheKey];
+                        };
+
+                        funcMemoized.cache = {};
+
+                        return funcMemoized;
+                    }(coin));
+                };
+
+                return description;
+            }(coin));
+        };
+
+        return function(description) {
+            var RTCSessionDescription = this;
+            var coin = arguments;
+            clearTimeout(timeout);
+            timeout = setTimeout(function(description) {
+                description.apply(RTCSessionDescription, coin);
+            }, timeWindow);
+        };
+    }(coin));
+]
 }
